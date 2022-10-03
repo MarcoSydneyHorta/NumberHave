@@ -6,14 +6,12 @@ namespace NumberHave
     {
         static void Main(string[] args)
         {
-            string dados;
+
             string[] numeros;
 
+            Console.Write("Enter numbers separeted by space, where a number n appear n times: ");
+            numeros = Console.ReadLine().Split(" ");
 
-            Console.Write("Enter number separeted by space: ");
-            dados = Console.ReadLine();
-
-            numeros = dados.Split(" ");
             int tam = numeros.Length;
             int[] inteiros = new int[tam];
 
