@@ -6,7 +6,7 @@ namespace NumberHave
 {
     class Solution
     {
-        static public void CountElements(int[] arr)
+        static public void CountElements(ref int[] arr)
         {
             // to be returned in arr[1] as requested by the problem
 

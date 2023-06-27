@@ -25,7 +25,7 @@ namespace NumberHave
             {
                 inteiros[i] = int.Parse(numeros[i]);
             }
-            Solution.CountElements(inteiros);
+            Solution.CountElements(ref inteiros);
             Console.WriteLine("Output = " + inteiros[1]);
             Console.Read();
         }
